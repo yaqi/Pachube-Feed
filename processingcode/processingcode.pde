@@ -14,7 +14,7 @@ void setup()
 println(Arduino.list());
 arduino = new Arduino(this, Arduino.list()[2], 9600);
 
-dOut = new DataOut(this, "http://www.pachube.com/api/35440.xml", "Q1jtuBeoic5RjEE28lWRowg1lg3xvUx86BV9u1fbm0w"); 
+dOut = new DataOut(this, "http://www.pachube.com/api/35440.xml", "MY APIKEY"); 
 
 dOut.addData(0,"LED sensor");
 
